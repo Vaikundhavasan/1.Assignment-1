@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  color: #f35525;
+}
+
+/*  Sub Header Start  */
+
+.subHeader {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0px;
+  border-bottom: 1px solid #eee;
+}
+
+.about ul {
+  display: flex;
+  gap: 20px;
+}
+
+.about ul li {
+  color: #7a7a7a;
+}
+
+.about ul li i {
+  color: #f35525;
+}
+
+.about ul li:first-child {
+  border-right: 1px solid #7a7a7a;
+  padding-right: 20px;
+}
+
+.social-links ul {
+  display: flex;
+  gap: 20px;
+}
+
+.social-links ul li {
+  width: 30px;
+  height: 30px;
+  background-color: #cdcdcd;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  color: white;
+}
+
+.social-links ul li a {
+  color: white;
+}
+
+.social-links ul li:hover {
+  background-color: #f35525;
+}
+
+/* Sub Header Close */
+
+/* Header Open */
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.header .logo {
+  text-transform: uppercase;
+}
+
+.header a:hover {
+  color: #f35525;
+}
+
+.nav-links ul {
+  display: flex;
+  gap: 50px;
+  font-weight: 600;
+}
+
+.nav-links .btn {
+  margin-left: 40px;
+  background-color: black;
+  width: 200px;
+  border-radius: 20px;
+}
+
+.nav-links .btn a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-links .btn a {
+  color: white;
+}
+
+.nav-links .btn .fa-calendar {
+  width: 40px;
+  height: 40px;
+  background-color: #f35525;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Header Close */

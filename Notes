@@ -1,0 +1,36 @@
+<i class="fa fa-envelope"></i>
+<i class="fa fa-map"></i>
+
+<i class="fab fa-facebook"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-linkedin"></i>
+<i class="fab fa-instagram"></i>
+
+<i class="fa fa-calendar"></i>
+
+<i class="fa fa-bars"></i>
+
+<!--  
+
+cmd - code .
+
+Google Search CDN - font awesome cdn
+
+Google Search Icon - font awesome icons
+
+link - https://creative-dasik-8c8611.netlify.app/
+
+google fonts - Poppins
+
+colors 
+    red -#f35525;
+    Lighy grey  - #eee
+    Grey - #7a7a7a 
+    Dark Grey - #cdcdcd
+
+
+center -   display: flex;
+  align-items: center;
+  justify-content: center;
+
+-->
